@@ -1,6 +1,6 @@
 import openai
 
-# Remplace par ta clé API personnelle
+# A mettre sa clé perso
 openai.api_key = "sk-..."
 
 def summarize(text):
@@ -15,7 +15,7 @@ def summarize(text):
     
     return response['choices'][0]['message']['content']
 
-# Exemple d'utilisation
+# Petit exemple
 if __name__ == "__main__":
     texte_long = """
     L'intelligence artificielle est un domaine en pleine croissance qui touche à la fois la santé, l'éducation, l'industrie et bien d'autres secteurs. 
