@@ -8,6 +8,6 @@ Un petit projet Python qui utilise l’API OpenAI pour générer automatiquement
 
 
 ### 💡 Variante (sans clé OpenAI)
-Tu peux faire exactement la même chose avec l'API Hugging Face gratuite en modifiant l’appel `requests.post` vers un endpoint comme `https://api-inference.huggingface.co/models/facebook/bart-large-cnn` avec ton token HF.
+Pour faire exactement la même chose avec l'API Hugging Face gratuite je dois modifier l’appel `requests.post` vers un endpoint comme `https://api-inference.huggingface.co/models/facebook/bart-large-cnn` avec ton token HF.
 
 
